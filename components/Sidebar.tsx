@@ -14,7 +14,9 @@ import SidebarRow from './SidebarRow'
 function Sidebar() {
   return (
     <div className='flex flex-col col-span-2 items-center md:items-start'>
-      <img src="/images/logo.png"alt="sidebar-bg" className='m-1 w-16 h-16 px-3 py-3 row-start-6 hover:scale-125'/>
+      <img src="/images/logo.png"alt="sidebar-bg" 
+      className='m-1 w-16 h-16 px-3 py-3 row-start-6 cursor-pointer 
+      transition-transform duration-700 ease-out active:rotate-180 hover:scale-125'/>
       <SidebarRow Icon={HomeIcon} title="Home" />
       <SidebarRow Icon={HashtagIcon} title="Explore" />
       <SidebarRow Icon={BellIcon} title="Notifications" />
