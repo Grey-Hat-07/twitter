@@ -19,7 +19,7 @@ function Sidebar() {
       transition-transform duration-700 ease-out active:rotate-180 hover:scale-125'/>
       <SidebarRow Icon={HomeIcon} title="Home" href="/" />
       <SidebarRow Icon={HashtagIcon} title="Explore" href="/" />
-      <SidebarRow Icon={BellIcon} title="Notifications" href="/" />
+      <SidebarRow Icon={BellIcon} title="Notifications" href="/Notifications" />
       <SidebarRow Icon={MailIcon} title="Messages" href="/" />
       <SidebarRow Icon={BookmarkIcon} title="Bookmarks" href="/" />
       <SidebarRow Icon={CollectionIcon} title="Lists" href="/" />

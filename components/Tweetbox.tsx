@@ -10,8 +10,8 @@ function Tweetbox() {
   const [input,setInput] = useState<string>("");
 
   return (
-    <div className='flex p-6 space-x-2'>
-      <img src="images/img-default.jpg"
+    <div className='flex pt-0 p-6 space-x-2'>
+      <img src="images/profile.jpeg"
         className='mt-4 w-10 h-10 sm:w-16 sm:h-16 object-cover rounded-full'
         alt='image' />
 
