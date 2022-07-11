@@ -7,11 +7,13 @@ import Tweets from './Tweets'
 import TweetsnReplies from './TweetsnReplies'
 import Media from './Media'
 import Likes from './Likes'
+import {useRouter} from 'next/router'
 function Profilecontent() {
+    const router = useRouter();
     return (
         <div className='col-span-8 lg:col-span-5 border-x-2 border-gray-100 overflow-scroll'>
             <div className='flex items-center mb-0'>
-                <ArrowLeftIcon className='w-7 h-8 p-1 mt-4 rounded-full hover:bg-gray-200' />
+                <ArrowLeftIcon className='w-7 h-8 p-1 mt-4 rounded-full hover:bg-gray-200' onClick={async() => await router.back()} />
                 <h2 className='p-4 pb-0 text-md font-extrabold'>Elon Musk</h2>
             </div>
             <p className='p-11 mt-0 pb-1 pt-0 text-gray-400 flex items-center text-sm'>1.1k tweets</p>
