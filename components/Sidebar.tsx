@@ -17,14 +17,14 @@ function Sidebar() {
       <img src="/images/logo.png"alt="sidebar-bg" 
       className='m-1 w-16 h-16 px-3 py-3 row-start-6 cursor-pointer 
       transition-transform duration-700 ease-out active:rotate-180 hover:scale-125'/>
-      <SidebarRow Icon={HomeIcon} title="Home" />
-      <SidebarRow Icon={HashtagIcon} title="Explore" />
-      <SidebarRow Icon={BellIcon} title="Notifications" />
-      <SidebarRow Icon={MailIcon} title="Messages" />
-      <SidebarRow Icon={BookmarkIcon} title="Bookmarks" />
-      <SidebarRow Icon={CollectionIcon} title="Lists" />
-      <SidebarRow Icon={UserIcon} title="Signin" />
-      <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" />
+      <SidebarRow Icon={HomeIcon} title="Home" href="/" />
+      <SidebarRow Icon={HashtagIcon} title="Explore" href="/" />
+      <SidebarRow Icon={BellIcon} title="Notifications" href="/" />
+      <SidebarRow Icon={MailIcon} title="Messages" href="/" />
+      <SidebarRow Icon={BookmarkIcon} title="Bookmarks" href="/" />
+      <SidebarRow Icon={CollectionIcon} title="Lists" href="/" />
+      <SidebarRow Icon={UserIcon} title="Profile" href="/Profile" />
+      <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" href="/" />
 
     </div>
   )

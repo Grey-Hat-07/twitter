@@ -2,6 +2,7 @@ import { RefreshIcon } from '@heroicons/react/outline'
 import React from 'react'
 import Tweetbox from './Tweetbox'
 import { TwitterHashtagButton } from 'react-twitter-embed'
+import Tweet from './Tweet'
 
 function Feed() {
     return (
@@ -19,6 +20,9 @@ function Feed() {
             {/* <TwitterHashtagButton
                 tag={'cybersecurity'}
             /> */}
+            {/* tweet */}
+
+            <Tweet/>
 
 
         </div>

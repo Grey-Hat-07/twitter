@@ -11,10 +11,13 @@ function Widgets() {
       </div>
 
       <TwitterTimelineEmbed
-        sourceType="profile"
-        screenName="SubhaNath20"
+        sourceType='profile'
+        screenName='elonmusk'
+        // collection_id='twitter-timeline'
         options={{ height: 650 }}
       />
+    {/* <iframe src="https://twitter.com/explore/tabs/trending" width="100%" height="650" style={{border: 'none', overflow: 'hidden'}}></iframe> */}
+
     </div>
   )
 }
