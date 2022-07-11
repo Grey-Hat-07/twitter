@@ -46,7 +46,7 @@ function Profilecontent() {
 
             <div className='flex justify-center mt-4 transition-all duration-1000 ease-out '>
                 <p className=' hover:bg-slate-200 p-7 text-md font-semibold'>Tweets</p>
-                <p className=' hover:bg-slate-200 pt-7 p-6 text-md font-semibold'>Tweets & Replies</p>
+                <p className=' hover:bg-slate-200 pt-7 p-6 text-md font-semibold'>Tweets &amp; Replies</p>
                 <p className=' hover:bg-slate-200 p-7 text-md font-semibold'>Media</p>
                 <p className=' hover:bg-slate-200 p-7 text-md font-semibold'>Likes</p>
             </div>
