@@ -11,8 +11,8 @@ function Notified() {
                 <CogIcon className='h-8 w-8 transition-all duration-200 ease-out p-2 rounded-full hover:bg-gray-200'/>
             </div>
             <div className='flex justify-center mt-1 transition-all duration-1000 ease-out border-b-2 border-gray-200'>
-                <p className=' hover:bg-slate-200 p-24 pt-5 pb-5  text-sm '>All</p>
-                <p className=' hover:bg-slate-200 p-24 pt-5 pb-5  text-sm '>Mentions</p>
+                <p className=' hover:bg-slate-200 p-12 pt-3 pb-3 sm:p-24 sm:pt-5 sm:pb-5  text-sm '>All</p>
+                <p className=' hover:bg-slate-200 p-12 pt-3 pb-3 sm:p-24 sm:pt-5 sm:pb-5  text-sm '>Mentions</p>
             </div>
             <NotifiContent />
             <NotifiContent />

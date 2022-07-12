@@ -31,16 +31,16 @@ function Tweet() {
                 </div>
             </div>
             <div className='flex justify-between mt-4'>
-                <div className='flex cursor-pointer items-center space-x-2 text-gray-400'>
+                <div className='flex cursor-pointer transition-transform duration-1000 ease-out rounded-full p-1 hover:bg-cyan-100 hover:text-twitter items-center space-x-2 text-gray-400'>
                 <ChatAlt2Icon className=' h-6 w-6'/>
                 </div >
-                <div className='flex cursor-pointer items-center space-x-2 text-gray-400'>
+                <div className='flex cursor-pointer transition-transform duration-1000 ease-out rounded-full p-1 hover:bg-green-100 hover:text-green-400 items-center space-x-2 text-gray-400'>
                 <SwitchHorizontalIcon className=' h-6 w-6'/>
                 </div>
-                <div className='flex cursor-pointer items-center space-x-2 text-gray-400'>
+                <div className='flex cursor-pointer transition-transform duration-1000 ease-out rounded-full p-1 hover:bg-red-50 hover:text-red-500 items-center space-x-2 text-gray-400'>
                 <HeartIcon className=' h-6 w-6'/>
                 </div>
-                <div className='flex cursor-pointer items-center space-x-2 text-gray-400'>
+                <div className='flex cursor-pointer transition-transform duration-1000 ease-out rounded-full p-1 hover:bg-cyan-100 hover:text-twitter items-center space-x-2 text-gray-400'>
                 <UploadIcon className=' h-6 w-6'/>
                 </div>
             </div>
