@@ -21,10 +21,10 @@ function Profilecontent() {
                 <div className="relative">
                     <img src='images/background.jpg' className='h-40 w-screen rounded-sm opacity-70' />
                     <br /><br />
-                    <div className="absolute bottom-0 left-8 ...">
+                    <div className="absolute bottom-0 left-3 sm:left-8 ...">
                         <img src='images/profile.jpeg' className=' border-slate-50 border-4 flex h-24 w-24 rounded-full' />
                     </div>
-                    <div className="absolute bottom-0 right-10 text-sm rounded-full bg-slate-100 p-2 border-2  transition-all duration-150 ease-out hover:bg-slate-300">
+                    <div className="absolute bottom-0 right-3 sm:right-10 text-sm rounded-full bg-slate-100 p-2 border-2  transition-all duration-150 ease-out hover:bg-slate-300">
                         <p className=' text-sm'>Edit profile</p>
                     </div>
                 </div>
@@ -44,11 +44,11 @@ function Profilecontent() {
                 </div>
             </div>
 
-            <div className='flex justify-center mt-4 transition-all duration-1000 ease-out '>
-                <p className=' hover:bg-slate-200 p-7 text-md font-semibold'>Tweets</p>
-                <p className=' hover:bg-slate-200 pt-7 p-6 text-md font-semibold'>Tweets &amp; Replies</p>
-                <p className=' hover:bg-slate-200 p-7 text-md font-semibold'>Media</p>
-                <p className=' hover:bg-slate-200 p-7 text-md font-semibold'>Likes</p>
+            <div className='flex justify-between sm:justify-center mt-4 transition-all duration-1000 ease-out '>
+                <p className=' hover:bg-slate-200 p-3 md:p-7 md:text-md text-sm font-semibold'>Tweets</p>
+                <p className=' hover:bg-slate-200 p-2 pt-3 md:pt-7 md:p-6 md:text-md text-sm font-semibold'>Tweets &amp; Replies</p>
+                <p className=' hover:bg-slate-200 p-3 md:p-7 md:text-md text-sm font-semibold'>Media</p>
+                <p className=' hover:bg-slate-200 p-3 md:p-7 md:text-md text-sm font-semibold'>Likes</p>
             </div>
             
         </div>

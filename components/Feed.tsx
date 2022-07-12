@@ -21,9 +21,11 @@ function Feed() {
                 tag={'cybersecurity'}
             /> */}
             {/* tweet */}
-
+            <div className='overflow-y-scroll h-screen'>
             <Tweet/>
-
+            <Tweet/>
+            <Tweet/>
+            </div>
 
         </div>
     )
